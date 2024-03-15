@@ -1,0 +1,377 @@
+repo_name: ctavolazzi/salt
+report_id: 25cc73083c05fc797f8d1178c94b4cac
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:03:40+00:00'
+requested_by: dmurphy18
+provider: github
+branch: master
+detected_tools_count: 31
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/doc/_themes/saltstack/static/js/vendor/bootstrap.js
+  detection_source: doc/_themes/saltstack/static/js/vendor/bootstrap.js
+  last_updated_by: Seth House
+  last_updated_on: 2013-02-22 09:59:37.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2014-06-17 14:19:03.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/tests/integration/files/file/base/mysql/select_query.sql
+  detection_source: tests/integration/files/file/base/mysql/select_query.sql
+  last_updated_by: Daniel Wallace
+  last_updated_on: 2017-09-19 15:36:51.000000000 Z
+- name: Tornado
+  description: A Python web framework and asynchronous networking library, originally
+    developed at FriendFeed
+  website_url: http://www.tornadoweb.org/
+  version: 6.3.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1002/tornado.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2023-10-11 16:12:25.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/salt/ext/saslprep.py
+  detection_source: salt/ext/saslprep.py
+  last_updated_by: James Howe
+  last_updated_on: 2021-03-01 20:39:48.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2014-06-17 14:19:03.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/.codecov.yml
+  detection_source: ".codecov.yml"
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2023-10-16 08:33:38.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/.github/workflows/backport.yml
+  detection_source: ".github/workflows/backport.yml"
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2023-09-24 20:20:44.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/salt/states/kubernetes.py
+  detection_source: salt/states/kubernetes.py
+  last_updated_by: nicholasmhughes
+  last_updated_on: 2023-11-15 18:25:29.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/zeromq.txt
+  detection_source: requirements/zeromq.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2014-06-17 14:19:03.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2014-06-17 14:19:03.000000000 Z
+- name: Test Kitchen
+  description: Integration tool for developing and testing infrastructure code and
+    software on isolated target platforms
+  website_url: http://kitchen.ci
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/2058/Dfh1da84.jpeg
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Megan Wilhite
+  last_updated_on: 2022-01-31 15:46:02.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Daniel A. Wozniak
+  last_updated_on: 2018-10-03 18:41:15.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/pytest.txt
+  detection_source: requirements/pytest.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2023-09-27 18:17:50.000000000 Z
+- name: Linode
+  description: Deploy and Manage Linux Virtual Servers in the Linode Cloud.
+  website_url: https://www.linode.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Cloud Hosting
+  image_url: https://img.stackshare.io/service/24/631d437cd8e04903f69766a85d8a5540.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/salt/cloud/clouds/linode.py
+  detection_source: salt/cloud/clouds/linode.py
+  last_updated_by: Zhiwei Liang
+  last_updated_on: 2023-08-08 18:25:26.000000000 Z
+- name: NSIS
+  description: Professional open source system to create Windows installers
+  website_url: http://nsis.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4728/Box.gif
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/requirements/base.txt
+  detection_source: requirements/base.txt
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2019-10-09 11:29:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/ctavolazzi/salt
+  detection_source: Repo Metadata
+- name: kitchen-docker
+  description: A Docker Driver for Test Kitchen
+  package_url: https://rubygems.org/kitchen-docker
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Megan Wilhite
+  last_updated_on: 2022-01-31 15:46:02.000000000 Z
+- name: kitchen-vagrant
+  description: Kitchen::Driver::Vagrant - A Vagrant Driver for Test Kitchen
+  package_url: https://rubygems.org/kitchen-vagrant
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Megan Wilhite
+  last_updated_on: 2022-01-31 15:46:02.000000000 Z
+- name: winrm
+  description: Ruby library for Windows Remote Management
+  package_url: https://rubygems.org/winrm
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19755/default_20ddf5326e65d3c279ff694c6e5f33b458ba3de8.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2019-02-22 14:58:35.000000000 Z
+- name: winrm-fs
+  description: Ruby library for file system operations via Windows Remote Management
+  package_url: https://rubygems.org/winrm-fs
+  version: '1.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/ctavolazzi/salt/blob/master/tests/kitchen/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Pedro Algarvio
+  last_updated_on: 2019-02-22 14:58:35.000000000 Z
